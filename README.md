@@ -33,7 +33,7 @@ NewsAPI\NewsAPIServiceProvider::class,
 
 **4-** Add the facade to your `app/config/app.php` file
 ```php
-'NewsAPI' => NewsAPI\Facades\SoccerAPI::class,
+'NewsAPI' => NewsAPI\Facades\NewsAPI::class,
 ```
 
 **5-** Publish the configuration file
